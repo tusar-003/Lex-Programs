@@ -282,31 +282,29 @@ static void yy_fatal_error YY_PROTO(( yyconst char msg[] ));
 	*yy_cp = '\0'; \
 	yy_c_buf_p = yy_cp;
 
-#define YY_NUM_RULES 3
-#define YY_END_OF_BUFFER 4
-static yyconst short int yy_accept[27] =
+#define YY_NUM_RULES 2
+#define YY_END_OF_BUFFER 3
+static yyconst short int yy_accept[8] =
     {   0,
-        0,    0,    4,    2,    3,    2,    2,    2,    2,    2,
-        2,    2,    2,    2,    2,    2,    2,    2,    2,    2,
-        2,    1,    1,    1,    1,    0
+        0,    0,    3,    2,    1,    1,    0
     } ;
 
 static yyconst int yy_ec[256] =
     {   0,
-        1,    1,    1,    1,    1,    1,    1,    1,    1,    2,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    3,    1,    1,    4,    5,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    7,    1,    1,
-        3,    1,    3,    1,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        6,    6,    6,    6,    6,    6,    6,    6,    6,    6,
-        1,    1,    1,    1,    1,    1,    8,    8,    8,    8,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    2,    2,    2,
+        2,    2,    2,    2,    2,    2,    2,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
 
-        8,    9,    8,   10,    8,    8,    8,    8,    8,    8,
-        8,   11,    8,    8,   12,   13,    8,    8,    8,    8,
-        8,    8,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
+        1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
         1,    1,    1,    1,    1,    1,    1,    1,    1,    1,
@@ -323,58 +321,29 @@ static yyconst int yy_ec[256] =
         1,    1,    1,    1,    1
     } ;
 
-static yyconst int yy_meta[14] =
+static yyconst int yy_meta[3] =
     {   0,
-        1,    2,    1,    1,    1,    1,    1,    1,    1,    1,
-        1,    1,    1
+        1,    2
     } ;
 
-static yyconst short int yy_base[30] =
+static yyconst short int yy_base[9] =
     {   0,
-        0,    9,   17,    0,  106,    3,    2,    0,    3,    0,
-       13,    1,    3,    0,    0,   25,   38,   51,   57,    0,
-       63,   76,   89,    0,   96,  106,  103,    2,    0
+        0,    0,    4,    5,    0,    0,    5,    1
     } ;
 
-static yyconst short int yy_def[30] =
+static yyconst short int yy_def[9] =
     {   0,
-       27,   27,   26,   28,   26,   28,   28,   28,   28,   28,
-       28,   28,   28,   28,   28,   26,   26,   26,   28,   18,
-       28,   26,   29,   22,   29,    0,   26,   26,   26
+        7,    1,    7,    7,    8,    8,    0,    7
     } ;
 
-static yyconst short int yy_nxt[120] =
+static yyconst short int yy_nxt[8] =
     {   0,
-       25,    5,    8,   26,   16,   26,   13,   15,    6,    7,
-        5,   11,   12,   11,   10,    9,   26,    6,    7,   13,
-       26,   26,   26,   26,   14,    8,   26,    8,    8,    8,
-       17,    8,   17,   17,   17,   17,   17,   17,    8,   26,
-        8,    8,    8,   18,    8,   18,   18,   18,   18,   18,
-       18,    8,   26,    8,   19,    8,   20,    8,   20,   20,
-       20,   20,   20,   20,   21,   21,   21,   21,   21,   21,
-       22,   22,   22,   22,   22,   22,    8,   26,    8,   19,
-       23,    8,    8,   24,   24,   24,   24,   24,   24,    8,
-       26,   26,    8,   23,   26,    8,    8,   26,   26,    8,
-
-       23,   26,    8,    4,    4,    3,   26,   26,   26,   26,
-       26,   26,   26,   26,   26,   26,   26,   26,   26
+        4,    5,    6,    7,    3,    7,    7
     } ;
 
-static yyconst short int yy_chk[120] =
+static yyconst short int yy_chk[8] =
     {   0,
-       29,    1,   28,    0,   15,    0,   14,   13,    1,    1,
-        2,   12,   10,    9,    7,    6,    3,    2,    2,   11,
-        0,    0,    0,    0,   11,   16,    0,   16,   16,   16,
-       16,   16,   16,   16,   16,   16,   16,   16,   17,    0,
-       17,   17,   17,   17,   17,   17,   17,   17,   17,   17,
-       17,   18,    0,   18,   18,   18,   18,   18,   18,   18,
-       18,   18,   18,   18,   19,   19,   19,   19,   19,   19,
-       21,   21,   21,   21,   21,   21,   22,    0,   22,   22,
-       22,   22,   22,   22,   22,   22,   22,   22,   22,   23,
-        0,    0,   23,   23,    0,   23,   25,    0,    0,   25,
-
-       25,    0,   25,   27,   27,   26,   26,   26,   26,   26,
-       26,   26,   26,   26,   26,   26,   26,   26,   26
+        1,    1,    8,    3,    7,    7,    7
     } ;
 
 static yy_state_type yy_last_accepting_state;
@@ -388,11 +357,13 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 ".\\valid_url.l"
+#line 1 ".\\odd_even.l"
 #define INITIAL 0
-#line 2 ".\\valid_url.l"
-#include <stdio.h>
-#line 396 "lex.yy.c"
+/* 11. Lex program to check whether input number is odd or even. */
+#line 4 ".\\odd_even.l"
+#include<stdio.h> 
+int i; 
+#line 367 "lex.yy.c"
 
 /* Macros after this point can all be overridden by user definitions in
  * section 1.
@@ -543,10 +514,10 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 5 ".\\valid_url.l"
+#line 8 ".\\odd_even.l"
 
 
-#line 550 "lex.yy.c"
+#line 521 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -597,13 +568,13 @@ yy_match:
 			while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 				{
 				yy_current_state = (int) yy_def[yy_current_state];
-				if ( yy_current_state >= 27 )
+				if ( yy_current_state >= 8 )
 					yy_c = yy_meta[(unsigned int) yy_c];
 				}
 			yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
 			++yy_cp;
 			}
-		while ( yy_base[yy_current_state] != 106 );
+		while ( yy_base[yy_current_state] != 5 );
 
 yy_find_action:
 		yy_act = yy_accept[yy_current_state];
@@ -631,20 +602,19 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 7 ".\\valid_url.l"
-{ printf("\nURL Valid\n"); }
+#line 10 ".\\odd_even.l"
+{i=atoi(yytext); 
+		if(i%2==0) 
+			printf("Even"); 
+		else
+		printf("Odd");} 
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 9 ".\\valid_url.l"
-{ printf("\nURL Invalid\n"); }
-	YY_BREAK
-case 3:
-YY_RULE_SETUP
-#line 11 ".\\valid_url.l"
+#line 15 ".\\odd_even.l"
 ECHO;
 	YY_BREAK
-#line 648 "lex.yy.c"
+#line 618 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -936,7 +906,7 @@ static yy_state_type yy_get_previous_state()
 		while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 			{
 			yy_current_state = (int) yy_def[yy_current_state];
-			if ( yy_current_state >= 27 )
+			if ( yy_current_state >= 8 )
 				yy_c = yy_meta[(unsigned int) yy_c];
 			}
 		yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
@@ -971,11 +941,11 @@ yy_state_type yy_current_state;
 	while ( yy_chk[yy_base[yy_current_state] + yy_c] != yy_current_state )
 		{
 		yy_current_state = (int) yy_def[yy_current_state];
-		if ( yy_current_state >= 27 )
+		if ( yy_current_state >= 8 )
 			yy_c = yy_meta[(unsigned int) yy_c];
 		}
 	yy_current_state = yy_nxt[yy_base[yy_current_state] + (unsigned int) yy_c];
-	yy_is_jam = (yy_current_state == 26);
+	yy_is_jam = (yy_current_state == 7);
 
 	return yy_is_jam ? 0 : yy_current_state;
 	}
@@ -1530,16 +1500,14 @@ int main()
 	return 0;
 	}
 #endif
-#line 11 ".\\valid_url.l"
+#line 15 ".\\odd_even.l"
 
 
-int yywrap(){
-    return 0;
-}
+int yywrap(){} 
 
-int main() {
-    printf("\nEnter URL : ");
-    yylex();
-    printf("\n");
-    return 0;
-}
+/* Driver code */
+int main() 
+{ 
+	yylex(); 
+	return 0; 
+} 
